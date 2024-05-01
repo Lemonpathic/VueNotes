@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Abs",
+    "img": "https://plus.unsplash.com/premium_photo-1661281288734-49d3606234c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg",
+    "workouts": [
+      {
+        "id": 1,
+        "name": "Crunches",
+        "intensity": "light"
+      },
+      {
+        "id": 2,
+        "name": "Plank",
+        "intensity": "medium"
+      },
+      {
+        "id": 3,
+        "name": "Russian Twists",
+        "intensity": "medium"
+      },
+      {
+        "id": 4,
+        "name": "Leg Raises",
+        "intensity": "hard"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arms",
+    "img": "https://2.bp.blogspot.com/-rCHOH90Rl3U/WdirJADH69I/AAAAAAAAOAY/-nlHDIy371oH95diMf3tV7zYkVdU_xJwACLcBGAs/s1600/Biceps-Workout-Dumbbell-Curls-01-600x399.jpg",
+    "workouts": [
+      {
+        "id": 5,
+        "name": "Bicep Curls",
+        "intensity": "medium"
+      },
+      {
+        "id": 6,
+        "name": "Tricep Extensions",
+        "intensity": "medium"
+      },
+      {
+        "id": 7,
+        "name": "Push-Ups",
+        "intensity": "hard"
+      },
+      {
+        "id": 8,
+        "name": "Dips",
+        "intensity": "hard"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Legs",
+    "img": "https://www.bodybuilding.com/images/2016/june/5-leg-workouts-for-mass-header-v2-960x540.jpg",
+    "workouts": [
+      {
+        "id": 9,
+        "name": "Squats",
+        "intensity": "hard"
+      },
+      {
+        "id": 10,
+        "name": "Lunges",
+        "intensity": "medium"
+      },
+      {
+        "id": 11,
+        "name": "Calf Raises",
+        "intensity": "medium"
+      },
+      {
+        "id": 12,
+        "name": "Glute Bridges",
+        "intensity": "medium"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chest",
+    "img": "https://barbend.com/wp-content/uploads/2022/06/Barbend-Featured-Image-1600x900-A-person-doing-chest-exercises-with-dumbbells-on-a-bench-1.jpg",
+    "workouts": [
+      {
+        "id": 13,
+        "name": "Push-Ups",
+        "intensity": "hard"
+      },
+      {
+        "id": 14,
+        "name": "Bench Press",
+        "intensity": "hard"
+      },
+      {
+        "id": 15,
+        "name": "Incline Flyes",
+        "intensity": "medium"
+      },
+      {
+        "id": 16,
+        "name": "Dips",
+        "intensity": "hard"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cardio",
+    "img": "https://img.runningwarehouse.com/watermark/rsg.php?path=/content_images/landing-pages/assorted_running/path_woman.jpg&nw=780",
+    "workouts": [
+      {
+        "id": 17,
+        "name": "Running",
+        "intensity": "varies"
+      },
+      {
+        "id": 18,
+        "name": "Swimming",
+        "intensity": "medium"
+      },
+      {
+        "id": 19,
+        "name": "Biking",
+        "intensity": "varies"
+      },
+      {
+        "id": 20,
+        "name": "Jumping Jacks",
+        "intensity": "medium"
+      }
+    ]
+  }
+]

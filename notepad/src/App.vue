@@ -1,25 +1,51 @@
+<script setup>
+  import {ref} from "vue";
+
+  function generateRandomLightRGBColor() {
+    const red = Math.floor(Math.random() * 255);
+    const green = Math.floor(Math.random() * 255);
+    const blue = Math.floor(Math.random() * 255);
+    const opacity = 0.5; // Set opacity if needed
+    return `rgba(${red}, ${green}, ${blue}, ${opacity})`;
+  }
+
+  const showModal = ref(false)
+  const newNote = ref("")
+  const notes = ref([])
+
+  const addNote = () =>{
+    notes.value.push({
+      id: Math.floor(Math.random() * 1000000),
+      text: newNote.value,
+      date: new Date(),
+      backgroundColor: generateRandomLightRGBColor()
+    })
+    showModal.value = false
+    newNote.value = ""
+  }
+</script>
 <template>
   <main>
-    <div class="overlay">
+    <div v-if="showModal" class="overlay">
       <div class="modal">
-        <textarea name="note" id="note" cols="30" rows="10"></textarea>
-        <button>Add Note</button>
-        <button class="exit">Close</button>
+        <textarea v-model="newNote" name="note" id="note" cols="30" rows="10"></textarea>
+        <button @click="addNote">Add Note</button>
+        <button @click="showModal = false" class="exit">Close</button>
       </div>
     </div>
     <div class="container">
       <header>
         <h1>Notes</h1>
-        <button>+</button>
+        <button @click="showModal = true">+</button>
       </header>
       <div class="cards-container">
-        <div class="card">
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          <p class="date">4/25/2025</p>
-        </div>
-        <div class="card">
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          <p class="date">4/25/2025</p>
+        <div v-for="note in notes"
+             :key="note.id"
+             class="card"
+             :style="{backgroundColor : note.backgroundColor}"
+        >
+          <p class="text">{{ note.text }}</p>
+          <p class="date">{{note.date.toLocaleDateString("en-US")}}</p>
         </div>
       </div>
     </div>
@@ -30,6 +56,7 @@
 main {
   height: 100vh;
   width: 100vw;
+
 }
 .container{
   max-width: 600px;
