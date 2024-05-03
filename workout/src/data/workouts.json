@@ -7,22 +7,30 @@
       {
         "id": 1,
         "name": "Crunches",
-        "intensity": "light"
+        "intensity": "light",
+        "reps": "10-15",
+        "video": "https://www.example.com/crunches-video"
       },
       {
         "id": 2,
         "name": "Plank",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "30-60 seconds",
+        "video": "https://www.example.com/plank-video"
       },
       {
         "id": 3,
         "name": "Russian Twists",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-20",
+        "video": "https://www.example.com/russian-twists-video"
       },
       {
         "id": 4,
         "name": "Leg Raises",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "10-15",
+        "video": "https://www.example.com/leg-raises-video"
       }
     ]
   },
@@ -34,22 +42,30 @@
       {
         "id": 5,
         "name": "Bicep Curls",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-12",
+        "video": "https://www.example.com/bicep-curls-video"
       },
       {
         "id": 6,
         "name": "Tricep Extensions",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-12",
+        "video": "https://www.example.com/tricep-extensions-video"
       },
       {
         "id": 7,
         "name": "Push-Ups",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "10-20",
+        "video": "https://www.example.com/push-ups-video"
       },
       {
         "id": 8,
         "name": "Dips",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "8-12",
+        "video": "https://www.example.com/dips-video"
       }
     ]
   },
@@ -61,22 +77,30 @@
       {
         "id": 9,
         "name": "Squats",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "8-12",
+        "video": "https://www.example.com/squats-video"
       },
       {
         "id": 10,
         "name": "Lunges",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-15",
+        "video": "https://www.example.com/lunges-video"
       },
       {
         "id": 11,
         "name": "Calf Raises",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-15",
+        "video": "https://www.example.com/calf-raises-video"
       },
       {
         "id": 12,
         "name": "Glute Bridges",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "12-15",
+        "video": "https://www.example.com/glute-bridges-video"
       }
     ]
   },
@@ -88,22 +112,30 @@
       {
         "id": 13,
         "name": "Push-Ups",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "10-20",
+        "video": "https://www.example.com/push-ups-video"
       },
       {
         "id": 14,
         "name": "Bench Press",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "8-12",
+        "video": "https://www.example.com/bench-press-video"
       },
       {
         "id": 15,
         "name": "Incline Flyes",
-        "intensity": "medium"
+        "intensity": "medium",
+        "reps": "10-15",
+        "video": "https://www.example.com/incline-flyes-video"
       },
       {
         "id": 16,
         "name": "Dips",
-        "intensity": "hard"
+        "intensity": "hard",
+        "reps": "8-12",
+        "video": "https://www.example.com/dips-video"
       }
     ]
   },
@@ -115,22 +147,30 @@
       {
         "id": 17,
         "name": "Running",
-        "intensity": "varies"
+        "intensity": "varies",
+        "duration": "30-60 minutes",
+        "example": "https://www.example.com/running-example"
       },
       {
         "id": 18,
         "name": "Swimming",
-        "intensity": "medium"
+        "intensity": "medium",
+        "duration": "30-60 minutes",
+        "example": "https://www.example.com/swimming-example"
       },
       {
         "id": 19,
         "name": "Biking",
-        "intensity": "varies"
+        "intensity": "varies",
+        "duration": "30-90 minutes",
+        "example": "https://www.example.com/biking-example"
       },
       {
         "id": 20,
         "name": "Jumping Jacks",
-        "intensity": "medium"
+        "intensity": "medium",
+        "duration": "10-20 minutes",
+        "example": "https://www.example.com/jumping-jacks-example"
       }
     ]
   }
