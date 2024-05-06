@@ -13,7 +13,7 @@ const router = createRouter({
             component: TestView
         },
         {
-            path: "/muscle-groups",
+            path: "/",
             name: "muscle-groups",
             component: WorkoutsTypeView
         },
@@ -24,7 +24,7 @@ const router = createRouter({
 
         },
         {
-            path:"/workout/:id",
+            path:"/workout/:musclename/:workoutid",
             name:"workout",
             component:WorkoutView
         }

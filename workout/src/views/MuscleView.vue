@@ -10,7 +10,7 @@ const muscle = workouts.find(w => w.id === parseInt(route.params.id))
 
 <template>
   <h1>{{muscle.name}}</h1>
-  <RouterLink v-for="workout in muscle.workouts" :key="workout.id">
+  <RouterLink v-for="workout in muscle.workouts" :key="workout.id" :to="`/workout/${muscle.name}/${workout.id}`" :workout='workout'>
     <WorkoutCard :workout = "workout"></WorkoutCard>
   </RouterLink>
 </template>
