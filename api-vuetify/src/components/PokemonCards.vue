@@ -6,7 +6,6 @@ import Card from "@/components/Card.vue";
 const pokemon = ref([])
 const page = ref(0)
 const response = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=8&offset=0")
-console.log(response.data)
 pokemon.value = response.data.results
 const nextPage = async () => {
   page.value += 1
