@@ -1,10 +1,12 @@
 <script setup>
 import {ref, toRef, watchEffect} from "vue";
+import EvolutionChain from "@/components/EvolutionChain.vue";
 
 const {pokemon} = defineProps(["pokemon"]);
+
 </script>
 <template>
-<v-dialog max-width="800">
+<v-dialog max-width="1200">
 <template v-slot:activator="{ props: activatorProps }">
   <v-btn
     v-bind="activatorProps"
@@ -16,6 +18,7 @@ const {pokemon} = defineProps(["pokemon"]);
 
 <template v-slot:default="{ isActive }">
   <v-card :title="pokemon.name.toUpperCase()" subtitle="Evolution">
+    <EvolutionChain :pokemon="pokemon"/>
     <v-card-text>
     </v-card-text>
     <v-card-actions>

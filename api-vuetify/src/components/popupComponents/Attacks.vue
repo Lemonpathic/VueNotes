@@ -1,9 +1,9 @@
 <script setup>
-const {pokemon} = defineProps(["pokemon"]);
+
 </script>
 
 <template>
-
+  $END$
 </template>
 
 <style scoped>
